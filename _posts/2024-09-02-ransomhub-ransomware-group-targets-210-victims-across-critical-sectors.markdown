@@ -39,4 +39,5 @@ L'estorsione quadrupla aumenta la posta in gioco contattando terze parti che han
 
 La natura lucrativa dei modelli RaaS ha alimentato un aumento nelle nuove varianti di ransomware come Allarich, Cronus, CyberVolk, Datablack, DeathGrip, Hawk Eye e Insom. Ha anche portato gli attori dello stato-nazione iraniano a collaborare con gruppi noti come NoEscape, RansomHouse e BlackCat in cambio di una percentuale dei proventi illeciti.
 
-![RansomHub Ransomware Group Targets 210 Victims Across Critical Sectors](/assets/images/2024-09-02-ransomhub-ransomware-group-targets-210-victims-across-critical-sectors.png)
+![RansomHub Ransomware Group Targets 210 Victims Across Critical Sectors](/PirateSec/assets/images/2024-09-02-ransomhub-ransomware-group-targets-210-victims-across-critical-sectors.png)
+
