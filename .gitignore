@@ -1,5 +1,26 @@
+# Cartelle e file generati automaticamente da Jekyll
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# File e cartelle temporanei
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Altri file di sistema
+Thumbs.db
+ehthumbs.db
+
+# Ignora gli script esterni se non vuoi includerli nel repo
+script.py
+
+# Ignora file di configurazione personali, se presenti
+config.local.yml
+
+# Ignora file di dati sensibili
+.env
+
