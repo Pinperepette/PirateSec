@@ -21,7 +21,7 @@
 title: PirateSec
 email: pinpeepette@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Navigare tra le Acque della Sicurezza Informatica"
+  Navigare tra le Acque della Sicurezza"
 baseurl: "/PirateSec" # the subpath of your site, e.g. /blog
 url: "https://pinperepette.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
