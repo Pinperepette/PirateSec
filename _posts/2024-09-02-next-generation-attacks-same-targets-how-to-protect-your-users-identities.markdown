@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Next-Generation Attacks, Same Targets - How to Protect Your Users' Identities"
+date: 2024-09-02
+categories: [security, ransomware]
+---
+
+L'FBI e l'ente statunitense CISA hanno recentemente emesso un avviso congiunto nell'ambito del loro continuo impegno #StopRansomware, per aiutare le organizzazioni a proteggersi da attacchi ransomware. Il nuovo avviso descrive un gruppo di cybercriminali emergente e i loro metodi di attacco, fornendo inoltre tre azioni essenziali per mitigare le minacce cibernetiche: installare gli aggiornamenti non appena rilasciati, richiedere un'autenticazione a più fattori resistente al phishing e formare gli utenti.
+
+Il mondo digitale è soggetto a un'escalation di attacchi ransomware e violazioni dei dati. La sfida difensiva è ormai restare al passo con il numero di nuovi attacchi e scoperte di violazioni. Questo è il risultato di notevoli avanzamenti nei metodi di attacco dei cybercriminali e di una risposta spesso troppo lenta delle organizzazioni al mutare di tali metodi. Come previsto, l'Intelligenza Artificiale Generativa sta cambiando radicalmente il modo in cui i cybercriminali attaccano le organizzazioni, rendendo necessari urgenti aggiustamenti alle strategie di difesa cibernetica.
+
+Nonostante l'evoluzione delle minacce, ciò che non cambia è il limite umano degli utenti quotidiani, che rappresentano il bersaglio preferito dei cybercriminali. Non esiste una formazione che possa rendere un utente medio in grado di rilevare campagne di phishing avanzate o deepfake sofisticati.
+
+Per comprendere l'impatto di questi attacchi, abbiamo raccolto le opinioni dei leader del settore della cybersecurity. Abbiamo commissionato a Datos Insights, un'azienda leader globale di dati e servizi di consulenza, uno studio di ricerca che rivela le intuizioni e le prospettive dei principali CISO e leader della MFA in tutto il mondo. In questo articolo, esamineremo le preziose informazioni ottenute dalla ricerca.
+
+Secondo i CISO, la vulnerabilità degli utenti rappresenta il rischio numero uno. I vettori di attacco stanno diventando più sofisticati grazie all'adozione dell'Intelligenza Artificiale, in particolare l'IA Generativa, rendendo sempre più difficile per i CISO e i loro team difendersi. Il 90% degli attacchi ransomware, secondo quanto riferito dal CISA, sono il risultato di phishing.
+
+Gli attacchi di phishing avanzati rimangono l'arma più efficace nell'arsenale di un hacker. Questi attacchi sono diventati più mirati e sofisticati grazie all'utilizzo dell'IA Generativa, che permette anche il lancio di attacchi di spear phishing su larga scala e con maggiore dettaglio, sfruttando dati reali sull'organizzazione e i suoi dipendenti per apparire autentici. I segnali distintivi delle email di phishing stanno rapidamente scomparendo, rendendo queste email sempre più indistinguibili dalle comunicazioni legittime.
+
+Questo problema è ulteriormente aggravato dall'ascesa della tecnologia Deepfake, che ha dato vita a nuove forme di attacchi di ingegneria sociale. I cybercriminali stanno ora utilizzando voci e video generati da IA per impersonare dirigenti e altre persone di fiducia. Questi attacchi sfruttano la fiducia innata che i dipendenti ripongono in voci e volti familiari, rendendoli particolarmente pericolosi.
+
+Gli strumenti per condurre questi attacchi sono ora disponibili a miliardi di persone sul dark web, senza che siano necessarie competenze specializzate. Una volta, gli attacchi di phishing e ransomware erano il dominio esclusivo dei cybercriminali esperti, ma con l'avvento dell'IA Generativa e dei nuovi strumenti di cybercriminalità, lanciare questi attacchi è diventato accessibile a chiunque abbia accesso al dark web, ovvero chiunque abbia un dispositivo informatico e una connessione internet. Ransomware-as-a-Service (RaaS) e gli strumenti guidati da IA disponibili sul dark web hanno semplificato il processo, eliminando la necessità di competenze avanzate.
+
+Le strategie di difesa devono evolvere di pari passo con i nuovi attacchi. L'adozione di MFA resistente al phishing è fondamentale e non più un optional. Con gli attacchi di phishing come principale minaccia cibernetica per le imprese, le soluzioni MFA tradizionali si stanno dimostrando sempre più inadeguate. Il rapporto sottolinea l'urgenza di implementare soluzioni MFA di prossima generazione, resistenti al phishing, in particolare di fronte agli attacchi di phishing potenziati dall'IA. I CISO dovrebbero accelerare il passaggio a soluzioni MFA basate su hardware, che utilizzano la biometria e sono conformi a FIDO.
+
+La MFA di prossima generazione è meglio implementata con implementazioni mirate per utenti privilegiati. Il rapporto sottolinea l'importanza di dare priorità all'implementazione della MFA di prossima generazione per gli utenti ad alto rischio all'interno dell'impresa, in particolare gli amministratori di sistema e gli esecutivi. I CISO devono migliorare la gestione del rischio per gli amministratori di sistema nonostante dispongano di soluzioni di gestione degli accessi privilegiati (PAM).
+
+In conclusione, le tecniche utilizzate dai cybercriminali stanno evolvendo costantemente, ma mai così rapidamente come negli ultimi dodici mesi. Abbiamo superato la capacità dei nostri utenti di essere la nostra prima linea di difesa cibernetica e non abbiamo fornito loro nuovi strumenti oltre quelli sviluppati anni o decenni fa. Mantenendoci informati sulle ultime minacce e implementando una strategia di difesa multilivello che enfatizza l'aggiornamento a MFA resistente al phishing di prossima generazione, le organizzazioni possono proteggere l'identità dei loro utenti e impedire ai cybercriminali di ottenere accesso non autorizzato a dati e operazioni sensibili. Proteggere i vostri utenti da nuovi attacchi richiede vigilanza, formazione e gli strumenti giusti. Dando priorità a questi settori, le organizzazioni possono ridurre significativamente il rischio di un attacco cibernetico di successo e mantenere la fiducia dei loro clienti e stakeholder.
+
+Per saperne di più su come la MFA di prossima generazione di Token può proteggere la tua organizzazione da attacchi di phishing e ransomware, visita il sito tokenring.com.
+
+![Next-Generation Attacks, Same Targets - How to Protect Your Users' Identities](/PirateSec/assets/images/2024-09-02-next-generation-attacks-same-targets-how-to-protect-your-users-identities.png)
