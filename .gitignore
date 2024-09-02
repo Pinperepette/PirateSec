@@ -24,3 +24,4 @@ config.local.yml
 # Ignora file di dati sensibili
 .env
 
+published_titles.yml
