@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'CVSS 10 e CVSS 9.8; Analisi delle Vulnerabilità in Windows e WordPress'"
+title: 'CVSS 10 e CVSS 9.8; Analisi delle Vulnerabilità in Windows e WordPress'
 date: 2024-09-04
 categories: [security, ransomware]
 ---
