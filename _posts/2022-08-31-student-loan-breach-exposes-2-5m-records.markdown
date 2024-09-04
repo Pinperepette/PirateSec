@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Violazione dei Prestiti Studenteschi: 2,5 Milioni di Record Esposti'
+title: Violazione dei Prestiti Studenteschi, 2,5 Milioni di Record Esposti
 date: 2022-08-31
 categories: [security, ransomware]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Rocinante Trojan: L'Inganno delle False App Bancarie che Rubano Dati Sensibili agli Utenti Android Brasiliani'
+title: Rocinante Trojan, L'Inganno delle False App Bancarie che Rubano Dati Sensibili agli Utenti Android Brasiliani
 date: 2024-09-03
 categories: [security, ransomware]
 ---
