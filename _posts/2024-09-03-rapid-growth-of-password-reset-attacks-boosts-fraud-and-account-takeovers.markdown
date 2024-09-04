@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Esplosione di Attacchi di Reimpostazione Password: Aumentano Frodi e Prese di Controllo degli Account'
+title: Esplosione di Attacchi di Reimpostazione Password. Aumentano Frodi e Prese di Controllo degli Account
 date: 2024-09-03
 categories: [security, ransomware]
 ---

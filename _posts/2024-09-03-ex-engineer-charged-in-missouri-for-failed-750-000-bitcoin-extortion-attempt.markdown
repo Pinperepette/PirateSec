@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ex-Ingegnere Accusato in Missouri per Tentativo Fallito di Estorsione Bitcoin del Valore di 750.000 Dollari"
+title: Ex-Ingegnere Accusato in Missouri per Tentativo Fallito di Estorsione Bitcoin del Valore di 750.000 Dollari
 date: 2024-09-03
 categories: [security, ransomware]
 ---

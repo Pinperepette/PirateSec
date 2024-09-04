@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nuovi Difetti nelle App Microsoft per macOS Potrebbero Consentire agli Hacker di Ottenere Accesso Illimitato"
+title: Nuovi Difetti nelle App Microsoft per macOS Potrebbero Consentire agli Hacker di Ottenere Accesso Illimitato
 date: 2024-09-03
 categories: [security, ransomware]
 ---

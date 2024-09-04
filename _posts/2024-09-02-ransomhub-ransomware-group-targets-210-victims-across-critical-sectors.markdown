@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Il gruppo di ransomware RansomHub prende di mira 210 vittime in settori critici"
+title: Il gruppo di ransomware RansomHub prende di mira 210 vittime in settori critici
 date: 2024-09-02
 categories: [security, ransomware]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Esplosione del 56% dei Gruppi Attivi di Ransomware nel 2024: un Nuovo Allarme Cybersecurity'
+title: Esplosione del 56% dei Gruppi Attivi di Ransomware nel 2024. un Nuovo Allarme Cybersecurity
 date: 2024-09-03
 categories: [security, ransomware]
 ---
