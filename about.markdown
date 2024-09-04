@@ -13,7 +13,7 @@ PirateSec è un blog automatizzato dedicato alla sicurezza informatica, con un f
 ## Tecnologie Utilizzate
 
 ### 1. **Python**
-   - **Scraping & Parsing**: Utilizzo delle librerie `requests` e `BeautifulSoup` per estrarre contenuti dai feed RSS di The Hacker News.
+   - **Scraping & Parsing**: Utilizzo delle librerie `requests` e `BeautifulSoup` per estrarre contenuti dai feed RSS di The Hacker News e exploit-db.
    - **Automazione della Pubblicazione**: Script Python automatizzati gestiscono l'intero processo di scraping, traduzione e pubblicazione dei contenuti.
 
 ### 2. **OpenAI GPT-4**
