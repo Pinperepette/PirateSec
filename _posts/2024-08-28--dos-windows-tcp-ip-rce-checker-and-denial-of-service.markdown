@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [dos] Windows TCP/IP - RCE Checker and Denial of Service 
+title: '[dos] Windows TCP/IP - RCE Checker and Denial of Service'
 date: 2024-08-28
 categories: [security, ransomware]
 ---
