@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'Truffe di Sextortion: Ora Includono Foto della Tua Casa'"
+title: 'Truffe di Sextortion: Ora Includono Foto della Tua Casa'
 date: 2024-09-03
 categories: [security, ransomware]
 ---

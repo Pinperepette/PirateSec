@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Proprietari di Servizio di Furto di Codici Monouso si Dichiarano Colpevoli"
+title: Proprietari di Servizio di Furto di Codici Monouso si Dichiarano Colpevoli
 date: 2024-09-02
 categories: [security, ransomware]
 ---

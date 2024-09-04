@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'Gruppi per i Diritti Civili Chiedono il Controllo del Spyware'"
+title: Gruppi per i Diritti Civili Chiedono il Controllo del Spyware
 date: 2024-09-03
 categories: [security, ransomware]
 ---

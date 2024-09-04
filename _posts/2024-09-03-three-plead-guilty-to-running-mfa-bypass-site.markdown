@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'Tre si Dichiarano Colpevoli per la Gestione di un Sito di Elusione MFA'"
+title: 'Tre si Dichiarano Colpevoli per la Gestione di un Sito di Elusione MFA'
 date: 2024-09-03
 categories: [security, ransomware]
 ---
