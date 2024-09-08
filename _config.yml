@@ -15,11 +15,11 @@ plugins:
 # Navigation links (aggiungi la sezione 'Corso Python' al menu)
 navigation:
   - title: Home
-    url: "/"
+    url: "{{ site.baseurl }}/"
   - title: Corso Python
-    url: "/corso-python/"
+    url: "{{ site.baseurl }}/corso-python/"
   - title: Blog
-    url: "/blog/"
+    url: "{{ site.baseurl }}/blog/"
 
 # SEO settings
 author: Pinperepette
