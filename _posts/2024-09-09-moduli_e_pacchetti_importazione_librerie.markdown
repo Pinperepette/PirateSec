@@ -4,7 +4,6 @@ title:  "Moduli e pacchetti: Importazione di librerie esterne"
 date:   2024-09-08 16:00:00 +0200
 categories: corso-python
 tags: [python, moduli, pacchetti, librerie]
-permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Moduli e pacchetti: Importazione di librerie esterne
