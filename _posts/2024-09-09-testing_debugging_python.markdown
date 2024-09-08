@@ -4,6 +4,7 @@ title:  "Testing e debugging in Python"
 date:   2024-09-08 19:00:00 +0200
 categories: corso-python
 tags: [python, testing, debugging, unittest]
+permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Testing e debugging in Python

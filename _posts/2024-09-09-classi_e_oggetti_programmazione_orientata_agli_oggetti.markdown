@@ -4,6 +4,7 @@ title:  "Programmazione orientata agli oggetti: Classi e oggetti"
 date:   2024-09-08 16:30:00 +0200
 categories: corso-python
 tags: [python, programmazione-orientata-agli-oggetti, classi, oggetti]
+permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Programmazione orientata agli oggetti: Classi e oggetti

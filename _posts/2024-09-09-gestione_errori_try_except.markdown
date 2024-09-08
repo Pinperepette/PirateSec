@@ -4,6 +4,7 @@ title:  "Gestione degli errori: try-except e gestione delle eccezioni"
 date:   2024-09-08 14:30:00 +0200
 categories: corso-python
 tags: [python, gestione-errori, eccezioni, try-except]
+permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Gestione degli errori: try-except e gestione delle eccezioni

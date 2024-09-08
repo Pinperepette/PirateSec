@@ -4,6 +4,7 @@ title:  "Librerie di terze parti: NumPy, Pandas e altro"
 date:   2024-09-08 18:30:00 +0200
 categories: corso-python
 tags: [python, numpy, pandas, librerie-di-terze-parti]
+permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Librerie di terze parti: NumPy, Pandas e altro

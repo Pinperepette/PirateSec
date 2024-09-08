@@ -4,6 +4,7 @@ title:  "Input/Output: Gestione dei file"
 date:   2024-09-08 15:00:00 +0200
 categories: corso-python
 tags: [python, input-output, file, gestione-file]
+permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Input/Output: Gestione dei file

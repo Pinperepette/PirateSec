@@ -4,6 +4,7 @@ title:  "Decoratori e generatori: Concetti avanzati in Python"
 date:   2024-09-08 17:30:00 +0200
 categories: corso-python
 tags: [python, decoratori, generatori, concetti-avanzati]
+permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Decoratori e generatori: Concetti avanzati in Python

@@ -4,6 +4,7 @@ title:  "Ereditarietà e polimorfismo: Concetti avanzati di OOP"
 date:   2024-09-08 17:00:00 +0200
 categories: corso-python
 tags: [python, ereditarietà, polimorfismo, OOP, programmazione-orientata-agli-oggetti]
+permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Ereditarietà e polimorfismo: Concetti avanzati di OOP
