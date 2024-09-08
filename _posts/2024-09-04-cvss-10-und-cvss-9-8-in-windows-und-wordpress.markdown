@@ -9,7 +9,6 @@ Lacune di Sicurezza Critiche: CVSS 10 e CVSS 9.8 in Windows e WordPress
 
 04.09.2024
 
-Autore: Thomas Joos
 
 Durata lettura: 1 minuto
 
