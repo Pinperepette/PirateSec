@@ -18,6 +18,8 @@ navigation:
     url: "{{ site.baseurl }}/"
   - title: Corso Python
     url: "{{ site.baseurl }}/corso-python/"
+  - title: Corso Buffer Overflow
+    url: "{{ site.baseurl }}/buffer-overflow/"
   - title: Blog
     url: "{{ site.baseurl }}/blog/"
 
