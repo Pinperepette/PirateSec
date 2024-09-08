@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Liste e Tuple: Manipolazione delle sequenze"
-date:   2024-09-08 12:00:00 +0200
+date:   2024-09-08 13:30:00 +0200
 categories: corso-python
 tags: [python, liste, tuple, sequenze]
 ---

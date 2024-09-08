@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Funzioni lambda e programmazione funzionale in Python"
-date:   2024-09-08 12:00:00 +0200
+date:   2024-09-08 18:00:00 +0200
 categories: corso-python
 tags: [python, lambda, programmazione-funzionale, funzioni]
 ---

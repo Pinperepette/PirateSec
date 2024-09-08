@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Testing e debugging in Python"
-date:   2024-09-08 12:00:00 +0200
+date:   2024-09-08 19:00:00 +0200
 categories: corso-python
 tags: [python, testing, debugging, unittest]
 ---

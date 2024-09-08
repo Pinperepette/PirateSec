@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gestione degli errori: try-except e gestione delle eccezioni"
-date:   2024-09-08 12:00:00 +0200
+date:   2024-09-08 14:30:00 +0200
 categories: corso-python
 tags: [python, gestione-errori, eccezioni, try-except]
 ---

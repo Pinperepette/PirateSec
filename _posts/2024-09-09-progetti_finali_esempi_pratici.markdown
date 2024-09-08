@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Progetti finali: Esempi pratici e applicazioni complete"
-date:   2024-09-08 12:00:00 +0200
+date:   2024-09-08 21:30:00 +0200
 categories: corso-python
 tags: [python, progetti, applicazioni, esempi-pratici]
 ---

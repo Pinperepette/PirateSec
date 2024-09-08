@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Input/Output: Gestione dei file"
-date:   2024-09-08 12:00:00 +0200
+date:   2024-09-08 15:00:00 +0200
 categories: corso-python
 tags: [python, input-output, file, gestione-file]
 ---

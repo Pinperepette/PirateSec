@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dizionari e Insiemi: Strutture di dati avanzate"
-date:   2024-09-08 12:00:00 +0200
+date:   2024-09-08 14:00:00 +0200
 categories: corso-python
 tags: [python, dizionari, insiemi, strutture-dati]
 ---
