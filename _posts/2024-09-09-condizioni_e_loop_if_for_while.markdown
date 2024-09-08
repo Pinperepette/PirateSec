@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Condizioni e loop: if, for, while"
-date:   2024-09-08 12:00:00 +0200
+date:   2024-09-08 13:00:00 +0200
 categories: corso-python
 tags: [python, condizioni, loop, if, for, while]
 ---

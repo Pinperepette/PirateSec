@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Funzioni: Creazione e utilizzo di funzioni"
-date:   2024-09-08 12:00:00 +0200
+date:   2024-09-08 13:30:00 +0200
 categories: corso-python
 tags: [python, funzioni, creazione-funzioni, utilizzo-funzioni]
 ---
