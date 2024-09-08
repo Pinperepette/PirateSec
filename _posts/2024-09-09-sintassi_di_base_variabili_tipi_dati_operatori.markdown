@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sintassi di base: Variabili, tipi di dati, operatori"
-date:   2024-09-08 15:30:00 +0200
+date:   2024-09-08 11:30:00 +0200
 categories: corso-python
 tags: [python, variabili, tipi-di-dati, operatori]
 ---
