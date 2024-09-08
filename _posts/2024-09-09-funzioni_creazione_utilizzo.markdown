@@ -4,7 +4,6 @@ title:  "Funzioni: Creazione e utilizzo di funzioni"
 date:   2024-09-08 13:30:00 +0200
 categories: corso-python
 tags: [python, funzioni, creazione-funzioni, utilizzo-funzioni]
-permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Funzioni: Creazione e utilizzo di funzioni

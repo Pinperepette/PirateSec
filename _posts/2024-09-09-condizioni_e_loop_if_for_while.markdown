@@ -4,7 +4,6 @@ title:  "Condizioni e loop: if, for, while"
 date:   2024-09-08 13:00:00 +0200
 categories: corso-python
 tags: [python, condizioni, loop, if, for, while]
-permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Condizioni e loop: if, for, while

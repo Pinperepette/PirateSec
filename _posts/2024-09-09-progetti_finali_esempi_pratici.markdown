@@ -4,7 +4,6 @@ title:  "Progetti finali: Esempi pratici e applicazioni complete"
 date:   2024-09-08 21:30:00 +0200
 categories: corso-python
 tags: [python, progetti, applicazioni, esempi-pratici]
-permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Progetti finali: Esempi pratici e applicazioni complete

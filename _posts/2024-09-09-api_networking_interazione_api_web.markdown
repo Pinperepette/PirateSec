@@ -4,7 +4,6 @@ title:  "API e networking: Interazione con le API web"
 date:   2024-09-08 20:00:00 +0200
 categories: corso-python
 tags: [python, API, networking, requests]
-permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # API e networking: Interazione con le API web
