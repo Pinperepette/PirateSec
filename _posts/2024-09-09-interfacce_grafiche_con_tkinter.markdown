@@ -4,6 +4,7 @@ title:  "Interfacce grafiche con Tkinter"
 date:   2024-09-08 21:00:00 +0200
 categories: corso-python
 tags: [python, tkinter, interfacce-grafiche, GUI]
+permalink: /PirateSec/corso-python/:year/:month/:day/:title.html
 ---
 
 # Interfacce grafiche con Tkinter
