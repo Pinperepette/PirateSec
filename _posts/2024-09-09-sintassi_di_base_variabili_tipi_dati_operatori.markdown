@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Sintassi di base: Variabili, tipi di dati, operatori"
